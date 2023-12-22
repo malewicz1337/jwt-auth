@@ -9,10 +9,10 @@ router.get("/", (req, res) => {
 });
 
 router.post(
-  "/register",
+  "/registration",
   body("email").isEmail(),
   body("passwprd").isLength({ min: 10, max: 30 }),
-  userController.register,
+  userController.registration,
 );
 router.post("/login", userController.login);
 router.post("/logout", userController.logout);

@@ -7,7 +7,7 @@ import userDto from "../dtos/user-dto.js";
 import ApiError from "../errors/api-errors.js";
 
 class UserService {
-  async register(email, password) {
+  async registration(email, password) {
     const user = await userModel.findOne({ email });
 
     if (user) {

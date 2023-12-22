@@ -3,7 +3,7 @@ import { validationResult } from "express-validation";
 import ApiError from "../errors/api-errors.js";
 
 class UserController {
-  async register(req, res, next) {
+  async registration(req, res, next) {
     try {
       const errors = validationResult(req);
       if (!errors.isEmpty()) {
@@ -11,7 +11,7 @@ class UserController {
       }
 
       const { email, password } = req.body;
-      const userData = await userService.register(email, password);
+      const userData = await userService.registration(email, password);
 
       // *: If https, add secure flag
       res.cookie("refreshToken", userData.refreshToken, {
