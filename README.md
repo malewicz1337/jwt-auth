@@ -14,34 +14,39 @@ Before you begin, ensure you have met the following requirements:
 To install the JWT Authentication System, follow these steps:
 
 1. Clone the repository:
-   ```bash
-   git clone https://github.com/malewicz1337/jwt-auth.git
+```bash
+git clone https://github.com/malewicz1337/jwt-auth.git
+```
 
 2. Navigate to the backend directory and install dependencies:
-    ```bash
-    cd jwt-auth/backend
-    npm install
+ ```bash
+ cd jwt-auth/backend
+ npm install
+```
 
 3. Set up your environment variables in a .env file based on the provided examples in the backend.
    
 4. Navigate to the frontend directory and install dependencies:
-    ```bash
-    cd ../frontend
-    npm install
+ ```bash
+ cd ../frontend
+ npm install
+```
 
 ## Usage
 
 To use the JWT Authentication System:
 
 1. Start the backend server:
-    ```bash
-    cd backend
-    npm start
+ ```bash
+ cd backend
+ npm start
+```
 
 2. In a separate terminal, start the frontend application:
-    ```bash
-    cd frontend
-    npm start
+ ```bash
+ cd frontend
+ npm start
+```
 
 3. Access the application through the browser at the specified port, typically http://localhost:3000.
    
