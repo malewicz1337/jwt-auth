@@ -1,4 +1,4 @@
-# JWT Authentication System
+# Simple JWT Authentication System
 
 This project implements a full-stack JWT (JSON Web Token) authentication system. It includes a backend developed with Node.js and Express, and a frontend built using React and Redux. The system allows user registration, login, email activation, and user management.
 
